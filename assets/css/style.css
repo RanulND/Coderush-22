@@ -13,7 +13,6 @@ body {
   color: #555555;
 }
 
-
 a {
   text-decoration: none;
   color: #7cc576;
@@ -169,7 +168,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #7cc576;
 }
 
@@ -205,11 +204,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #7cc576;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -221,7 +220,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -233,7 +232,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -304,7 +303,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #7cc576;
 }
 
@@ -339,11 +338,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #7cc576;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -633,7 +632,7 @@ section {
   list-style: none;
 }
 
-.why-us .accordion-list li+li {
+.why-us .accordion-list li + li {
   margin-top: 15px;
 }
 
@@ -768,7 +767,6 @@ section {
 }
 
 @media (max-width: 1024px) {
-
   .why-us .content,
   .why-us .accordion-list {
     padding-left: 0;
@@ -1014,7 +1012,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1488,7 +1486,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1536,7 +1534,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #7cc576;
   border: 0;
   padding: 10px 24px;
@@ -1545,7 +1543,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #61b959;
 }
 
@@ -1590,11 +1588,11 @@ section {
   font-size: 15px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #2f2f2f;
@@ -1679,13 +1677,13 @@ section {
   text-align: left;
 }
 
-#footer .footer-top .footer-newsletter form input[type=email] {
+#footer .footer-top .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
 
-#footer .footer-top .footer-newsletter form input[type=submit] {
+#footer .footer-top .footer-newsletter form input[type="submit"] {
   position: absolute;
   top: 0;
   right: -1px;
@@ -1701,7 +1699,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
+#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
   background: #5ab652;
 }
 
@@ -1748,8 +1746,6 @@ section {
   padding-top: 5px;
 }
 
-
-
 section {
   padding: 100px 0;
 }
@@ -1759,21 +1755,22 @@ section {
 }
 .timeline::before {
   content: "";
-  background: #C5CAE9;
+  background: #c5cae9;
   width: 5px;
-  height: 95%;
+  height: 90%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: 80px;
 }
 
 .timeline-item {
   width: 100%;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 .timeline-item:nth-child(even) .timeline-content {
   float: right;
-  padding: 40px 30px 10px 30px;
+  padding: 20px 30px 20px 30px;
 }
 .timeline-item:nth-child(even) .timeline-content .date {
   right: auto;
@@ -1799,10 +1796,10 @@ section {
 .timeline-content {
   position: relative;
   width: 45%;
-  padding: 10px 30px;
+  padding: 20px 30px 20px 30px;
   border-radius: 4px;
-  background: #f5f5f5;
-  box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+  background: #ffffff;
+  box-shadow: 0px 0px 20px -2px #3f51b5;
 }
 .timeline-content::after {
   content: "";
@@ -1816,15 +1813,16 @@ section {
   border-color: transparent transparent transparent #f5f5f5;
 }
 
-.timeline-img {
-  width: 30px;
-  height: 30px;
-  background: #3F51B5;
+.timeline-img .image {
+  width: 70px;
+  height: 70px;
+  background: #3f51b5;
   border-radius: 50%;
   position: absolute;
   left: 50%;
   margin-top: 25px;
-  margin-left: -15px;
+  margin-left: -35px;
+  border: 3px solid rgb(197, 202, 233);
 }
 
 .timeline-card {
@@ -1838,7 +1836,8 @@ section {
 }
 
 .timeline-item .timeline-img-header {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://picsum.photos/1000/800/?random") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+    url("https://picsum.photos/1000/800/?random") center center no-repeat;
   background-size: cover;
 }
 
@@ -1848,7 +1847,7 @@ section {
   margin-bottom: 20px;
 }
 .timeline-img-header h2 {
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   bottom: 5px;
   left: 20px;
@@ -1857,25 +1856,40 @@ section {
 blockquote {
   margin-top: 30px;
   color: #757575;
-  border-left-color: #3F51B5;
+  border-left-color: #3f51b5;
   padding: 0 20px;
 }
 
 .date {
-  background: #FF4081;
-  display: inline-block;
-  color: #FFFFFF;
+  background: rgb(31, 67, 133);
+  display: block;
+  color: #ffffff;
   padding: 10px;
-  position: absolute;
-  top: 0;
-  right: 0;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.btn {
+  background: rgb(108, 0, 134) !important;
+  color: #ffffff;
+  padding: 8px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 30px;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
   .timeline::before {
     left: 50px;
   }
-  .timeline .timeline-img {
+  .timeline .timeline-img .image {
     left: 50px;
   }
   .timeline .timeline-content {
