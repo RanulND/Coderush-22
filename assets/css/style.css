@@ -32,6 +32,10 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
+.paragraph{
+  font-size: 15px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -395,7 +399,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 14px 30px;
@@ -1249,12 +1253,12 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #fff;
+  background: #1f4385;
   text-align: center;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  border: 1px solid #fff;
+  border: 1px solid #1f4385;
 }
 
 .pricing .box h3 {
@@ -1355,7 +1359,7 @@ section {
   z-index: 1;
   font-size: 12px;
   padding: 4px 25px 6px 25px;
-  background: #eaf6e9;
+  background: #3f51b5;
   color: #1f4385;
   border-radius: 50px;
   text-transform: uppercase;
@@ -1821,7 +1825,7 @@ section {
   border-radius: 50%;
   position: absolute;
   left: 50%;
-  margin-top: 25px;
+  margin-top: 16px;
   margin-left: -25px;
   border: 3px solid rgb(197, 202, 233);
 }
@@ -1862,7 +1866,7 @@ blockquote {
 }
 
 .date {
-  background: #1f4385;
+  background: #3f51b5;
   display: block;
   color: #ffffff;
   padding: 10px;
@@ -1876,12 +1880,12 @@ blockquote {
 }
 
 .btn {
-  background: rgb(108, 0, 134) !important;
+  background: #0091ea !important;
   color: #ffffff;
   padding: 8px 20px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 30px;
   transition: 0.5s;
 }
@@ -1891,12 +1895,12 @@ blockquote {
     left: 50px;
   }
   .timeline .timeline-img{
-    left: 50px;
+    left: 38px;
   }
   .timeline .timeline-content {
     max-width: 100%;
     width: auto;
-    margin-left: 70px;
+    margin-left: 75px;
   }
   .timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
