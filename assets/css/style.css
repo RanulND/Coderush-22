@@ -1922,3 +1922,7 @@ blockquote {
   background-color: #1f4385 !important;
   font-size: 14px;
 }
+
+.btn-get-started.btn.rulesBtn:hover {
+  color: grey;
+  }
